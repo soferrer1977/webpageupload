@@ -1,0 +1,91 @@
+
+body {
+	background: #000000;
+	margin: 0px;
+}
+
+nav {
+	text-align: center;
+	position: fixed;
+	background: linear-gradient(to right, #000000, #010101, #111111, #555555);
+	width: 100%;
+	border-bottom: 1px solid #ffffff;
+}
+
+nav h2 {
+	background: -webkit-linear-gradient(#1c2155, #d279c7);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	float: left;
+	margin-left: 20px;
+	margin-right: -10%;
+}
+
+nav a {
+	display: inline-block;
+	width: 250px;
+	padding: 30px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Arial;
+}
+
+nav a:hover {
+	background: #666666;
+	transition: 1s;
+}
+
+
+header {
+	background-image: url(images/space_bg.jpg);
+	color: #000000;
+	padding: 50px;
+	font-size: 250%;
+	text-align: center;
+	border-bottom: 3px solid #000000;
+	font-family: "Trajan Pro";
+}
+#content {
+	width: 50%;
+	margin: auto;
+}
+#header-wrapper {
+	background: rgba(255, 255, 255, 0.5);
+	padding: 30px;
+	width: 50%;
+	margin: auto ;
+	border-radius: 5px;
+}
+
+section {
+	text-indent: 35px;
+	line-height: 25px;
+	background: linear-gradient(#454545, #050505);
+	padding: 40px;
+	color: #aaaaaa;
+	text-align: justify;
+	border-bottom: 4px ridge #656565;
+	border-top: 4px groove #656565;
+}
+
+
+footer {
+	background: linear-gradient(#454545, #050505);
+	color: white;
+	margin: auto;
+	padding: 40px;
+	text-align: center;
+}
+	
+	
+table, th, td {
+	color: white;
+	border: solid white 3px;
+	border-collapse: collapse;
+	margin: auto;
+} 
+img {
+	float: right;
+	margin-left: 20px;
+	width: 350px;
+}
